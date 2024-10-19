@@ -1,7 +1,6 @@
 import { type ReactNode } from "react";
 import { FaLinkedinIn, FaInstagram, FaGithub } from "react-icons/fa";
 import { HiMenuAlt3 } from "react-icons/hi";
-import AngleBrackets from "/anglebrackets.svg";
 
 type NavItem = {
   id: number;
@@ -51,7 +50,7 @@ function Header() {
       <div className="grid grid-cols-12 h-full">
         <div className="col-span-3 flex items-center">
           <div className="flex items-center gap-x-2">
-            <img src={AngleBrackets} alt="" loading="lazy" />
+            <img src="/anglebrackets.svg" alt="logo" loading="lazy" />
             <span className="dm-mono-medium text-2xl bg-text-gradient bg-clip-text text-transparent">
               Javad.dev
             </span>
@@ -72,12 +71,14 @@ function Header() {
           </nav>
         </div>
         <div className="col-span-3 flex items-center justify-end">
-            <HiMenuAlt3 className="text-white text-3xl xl:hidden"/>
+          <HiMenuAlt3 className="text-white text-3xl xl:hidden" />
           <ul className="h-full hidden xl:flex items-center justify-end gap-4 text-white text-lg">
-            {SOCIAILMEDIA.map(item => (
-                <li key={item.id}>
-                    <a href={item.link} target="_blank">{item.icon}</a>
-                </li>
+            {SOCIAILMEDIA.map((item) => (
+              <li key={item.id}>
+                <a href={item.link} target="_blank">
+                  {item.icon}
+                </a>
+              </li>
             ))}
           </ul>
         </div>
