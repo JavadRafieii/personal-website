@@ -1,8 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 import SkillsSlider from "../components/SkillsSlider";
 import { FiDownload } from "react-icons/fi";
-import Profile from "/profile.png";
-import AngleBracketsProfile from "/anglebracketsProfile.svg";
 
 
 function Home() {
@@ -11,9 +9,9 @@ function Home() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 lg:gap-10">
         <div className="flex items-center justify-center">
           <figure className="relative">
-            <img src={Profile} alt="Profile" loading="lazy" />
+            <img src="/profile.png" alt="Profile" loading="lazy" />
             <img
-              src={AngleBracketsProfile}
+              src="/anglebracketsProfile.svg"
               alt="Angle Brackets Profile"
               loading="lazy"
               className="absolute -bottom-8 left-[calc(50%-40px)]"
