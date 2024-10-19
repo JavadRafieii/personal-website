@@ -39,3 +39,8 @@
     font-weight: 500;
     font-style: italic;
 }
+
+
+.skills-slider>.swiper-wrapper {
+    transition-timing-function: linear;
+}

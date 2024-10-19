@@ -36,6 +36,9 @@ export default {
         'dark-slate': '#272730',
         'earthy-green': '#3b413d',
         'semi-transparent-white': '#ffffff80',
+        'soft-pink': '#f778ba',
+        'lime-green': '#a1f34e',
+        'midnight-gray': '#24242d',
       },
       backgroundImage: {
         'text-gradient': 'linear-gradient(270deg, rgba(255, 255, 255, 0.32) 0%, #fff 100%)',
