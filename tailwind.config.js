@@ -42,6 +42,7 @@ export default {
       },
       backgroundImage: {
         'text-gradient': 'linear-gradient(270deg, rgba(255, 255, 255, 0.32) 0%, #fff 100%)',
+        'checkered': 'url("checkered.png")',
       }
     },
   },
