@@ -1,26 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
 @import "tailwindcss";
 
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: hsl(220, 20%, 2%);
+  --fg: hsl(0, 0%, 100%);
+  --card-bg: hsl(220, 20%, 4%);
+  --primary: hsl(187, 94%, 43%);
+  --primary-fg: hsl(220, 20%, 2%);
+  --secondary: hsl(263, 70%, 58%);
+  --muted: hsl(220, 15%, 12%);
+  --muted-fg: hsl(0, 0%, 70%);
+  --surface: rgba(255, 255, 255, 0.02);
+  --surface-hover: rgba(255, 255, 255, 0.05);
+  --border: rgba(255, 255, 255, 0.06);
+  --border-hi: rgba(255, 255, 255, 0.15);
+  --text-dim: rgba(255, 255, 255, 0.4);
+  --text-soft: rgba(255, 255, 255, 0.6);
+  --text-bright: rgba(255, 255, 255, 0.9);
+  --glass-shadow: 0 16px 48px rgba(0, 0, 0, 0.6);
+  --glass-inset: inset 0 1px 1px rgba(255, 255, 255, 0.08);
+  --orb-opacity: 0.15;
+  --radius: 1rem;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@theme {
+  --font-manrope: "Manrope", sans-serif;
+  --font-asul: "Asul", serif;
+  --font-space-grotesk: "Space Grotesk", sans-serif;
+  --font-vazirmatn: "Vazirmatn", sans-serif;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-soft: rgba(255, 255, 255, 0.6);
+  --color-dim: rgba(255, 255, 255, 0.4);
+  --color-bright: rgba(255, 255, 255, 0.9);
+  --color-muted-fg: hsl(0, 0%, 70%);
+  --color-muted: hsl(220, 15%, 12%);
+  --color-border: rgba(255, 255, 255, 0.06);
+  --color-primary: hsl(187, 94%, 43%);
+  --color-bg: hsl(220, 20%, 2%);
+  --color-fg: hsl(0, 0%, 100%);
+  --color-surface-hover: rgba(255, 255, 255, 0.05);
+  --color-surface: rgba(255, 255, 255, 0.02);
+  --color-border-hi: rgba(255, 255, 255, 0.15);
+
+  --background-image-hero: linear-gradient(135deg, var(--primary), var(--secondary));
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  background: var(--bg);
+  color: var(--fg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+.orbits {
+  position: fixed;
+  /* border-radius: 50%; */
+  /* pointer-events: none; */
+  z-index: 0;
+}
+
+.orbit-primary {
+  width: 800px;
+  height: 800px;
+  top: -10%;
+  left: 15%;
+  background: hsl(187 94% 43% / var(--orb-opacity));
+  filter: blur(140px);
+  /* animation: orbit 18s ease-in-out infinite; */
+}
+
+.orbit-secondary {
+  width: 900px;
+  height: 900px;
+  bottom: -10%;
+  right: 10%;
+  background: hsl(263 70% 58% / var(--orb-opacity));
+  filter: blur(160px);
+  /* animation: orbit 24s ease-in-out infinite reverse; */
+}
+
+.orbit-vignette {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 0%, rgba(0, 0, 0, 0.6) 100%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+
+.glass {
+  background: var(--surface) !important;
+  backdrop-filter: blur(24px) !important;
+  -webkit-backdrop-filter: blur(24px) !important;
+  border: 1px solid var(--border) !important;
+  box-shadow: var(--glass-shadow), var(--glass-inset) !important;
+  border-radius: 1rem;
+}
+
+.glass-card {
+  background: var(--surface);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+}
+
+.glass-card:hover,
+.glass-card-hover:hover {
+  background: var(--surface-hover);
+  border-color: var(--border-hi);
 }

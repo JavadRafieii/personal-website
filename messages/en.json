@@ -1,0 +1,268 @@
+{
+    "Header": {
+        "title": "Javad Rafiei"
+    },
+    "Sidebar": {
+        "name": "Javad Rafiei",
+        "title": "Frontend Developer (React, Next)",
+        "informations": [
+            {
+                "label": "Status",
+                "value": "Open To Work"
+            },
+            {
+                "label": "Location",
+                "value": "Iran/Tehran"
+            },
+            {
+                "label": "Experience",
+                "value": "+3 years"
+            }
+        ],
+        "btn": "Download Resume"
+    },
+    "Navigation": {
+        "translate": {
+            "label": "Translate"
+        },
+        "home": {
+            "label": "Home"
+        },
+        "about": {
+            "label": "About"
+        },
+        "resume": {
+            "label": "Resume"
+        },
+        "portfolio": {
+            "label": "Portfolio"
+        },
+        "contact": {
+            "label": "Contsct"
+        }
+    },
+    "HeroSection": {
+        "label": "Welcome to my universe",
+        "heading": "Crafting modern, fast, and <highlight>user-focused</highlight> digital experiences.",
+        "description": "I design and develop fast, scalable, and optimized websites and web applications using React, Next.js, and TypeScript, delivering seamless and engaging user experiences."
+    },
+    "AboutSection": {
+        "heading": "About Me",
+        "description": "As a passionate Front-end Developer specializing in React, I enjoy building modern, scalable, and user-focused web applications. I thrive in collaborative environments where I can contribute to meaningful projects, continuously expand my skills, and stay up to date with the latest technologies. My goal is to create high-quality, performant, and intuitive digital experiences that deliver real value to users.",
+        "information": [
+            {
+                "label": "Age",
+                "value": "27"
+            },
+            {
+                "label": "Residence",
+                "value": "Iran / Tehran"
+            },
+            {
+                "label": "Email",
+                "value": "javadrafiei.dev@gmail.com"
+            },
+            {
+                "label": "Phone Number",
+                "value": "09012927502"
+            },
+            {
+                "label": "Status",
+                "value": "Open To Work"
+            },
+            {
+                "label": "Experience",
+                "value": "+3 years"
+            }
+        ],
+        "label": "What I do",
+        "services": [
+            {
+                "label": "Front-end Development",
+                "value": "Building modern, responsive, and high-performance web applications with React, Next.js, and TypeScript."
+            },
+            {
+                "label": "Responsive Design",
+                "value": "Creating seamless experiences across desktops, tablets, and mobile devices with responsive layouts."
+            },
+            {
+                "label": "UI Implementation",
+                "value": "Turning modern UI/UX designs into clean, accessible, and pixel-perfect user interfaces."
+            },
+            {
+                "label": "Performance Optimization",
+                "value": "Optimizing web applications for speed, scalability, and an excellent user experience."
+            },
+            {
+                "label": "API Integration",
+                "value": "Connecting applications to REST APIs and managing data efficiently with modern development practices."
+            },
+            {
+                "label": "Component Architecture",
+                "value": "Developing reusable, scalable, and maintainable components for consistent user interfaces."
+            }
+        ]
+    },
+    "ResumeSection": {
+        "heading": "Resume",
+        "label": "EXPERIENCES",
+        "experiences": [
+            {
+                "time": "08/2024 – 12/2024",
+                "title": "React Developer",
+                "organization": " · Captain Hook (P2E) · Freelance · Remote — Dubai, UAE",
+                "description": [
+                    "Developed and deployed the project's front-end using React.js and Tailwind CSS, with hosting managed via Vercel.",
+                    "Designed and implemented modern, engaging UI animations to enhance the overall gaming experience.",
+                    "Collaborated with an international team of blockchain, game development, and marketing specialists in a fully remote environment.",
+                    "Contributed to building a Web3 gaming platform on Binance Smart Chain (BSC), integrating P2E mechanics and a token-based economy ($CAPT)."
+                ]
+            },
+            {
+                "time": "07/2022 – 03/2024",
+                "title": "Frontend Developer",
+                "organization": " · Riraco · Hybrid — Tehran, Iran",
+                "description": [
+                    "Set up and maintained testing environments to ensure code quality and the stable delivery of project changes.",
+                    "Established Git repositories and enforced a Git Flow branching strategy for structured team collaboration.",
+                    "Migrated WordPress themes from Bootstrap to Tailwind CSS, resulting in more modern designs and a faster design workflow.",
+                    "Designed and developed a custom Tailwind CSS theme aligned with the company's branding guidelines.",
+                    "Audited and optimized HTML, CSS, and JavaScript across pre-built websites to improve performance and maintainability."
+                ]
+            },
+            {
+                "time": "05/2022 – 07/2022",
+                "title": "Frontend Intern",
+                "organization": " · Riraco · Hybrid — Tehran, Iran",
+                "description": [
+                    "Integrated Bootstrap into WordPress themes to improve visual design and overall user experience.",
+                    "Identified and resolved HTML, CSS, and JavaScript bugs across 10+ developed themes within one month.",
+                    "Built a custom order-price calculator app, enabling users to see their total payment after configuring their order.",
+                    "Refactored projects using Sass to establish a cleaner code structure and boost development productivity."
+                ]
+            }
+        ]
+    },
+    "Skills": {
+        "label": "SKILLS",
+        "skills": [
+            {
+                "name": "HTML / CSS",
+                "pct": 100
+            },
+            {
+                "name": "JavaScript",
+                "pct": 70
+            },
+            {
+                "name": "React.js / Next.js",
+                "pct": 70
+            },
+            {
+                "name": "TypeScript",
+                "pct": 60
+            },
+            {
+                "name": "Redux / Context API",
+                "pct": 70
+            },
+            {
+                "name": "Tailwind CSS / Bootstrap",
+                "pct": 90
+            },
+            {
+                "name": "Responsive Design",
+                "pct": 100
+            },
+            {
+                "name": "Material UI / Styled Components",
+                "pct": 50
+            },
+            {
+                "name": "HTTP & RESTful APIs",
+                "pct": 70
+            },
+            {
+                "name": "Git / GitHub / Git Flow",
+                "pct": 60
+            }
+        ]
+    },
+    "Portfolio": {
+        "heading": "Portfolio",
+        "portfolio": [
+            {
+                "label": "E-commerce",
+                "name": "Blueberry",
+                "image": "",
+                "link": "https://github.com/JavadRafieii/blueberry"
+            },
+            {
+                "label": "Corporate",
+                "name": "Pharmed Lotus",
+                "image": "",
+                "link": "https://bplutus.com/"
+            },
+            {
+                "label": "Corporate",
+                "name": "Nersi Realestate",
+                "image": "",
+                "link": "https://nersirealestate.com/"
+            },
+            {
+                "label": "Corporate",
+                "name": "Simut",
+                "image": "",
+                "link": "https://mfp.co.ir/"
+            },
+            {
+                "label": "Landing",
+                "name": "Riraco",
+                "image": "",
+                "link": "https://mfp.co.ir/"
+            }
+        ]
+    },
+    "Contact": {
+        "heading": "Contact",
+        "description": "Whether you're looking to start a project, collaborate, or simply say hello, I'd love to hear from you. Let's turn your ideas into modern digital experiences.",
+        "information": {
+            "location": {
+                "label": "LOCATION",
+                "value": "Iran/Tehran"
+            },
+            "phone": {
+                "label": "PHONE NUMBER",
+                "value": "09012927502"
+            },
+            "email": {
+                "label": "EMAIL",
+                "value": "javadrafiei.dev@gmail.com"
+            }
+        }
+    },
+    "ContactForm": {
+        "your-name": "Your Name",
+        "name-required": "Name is required",
+        "name-min-length": "Name must be at least 3 characters",
+        "name-max-length": "Name cannot exceed 50 characters",
+        "your-email": "Your Email",
+        "email-required": "Email is required",
+        "email-max-length": "Email is too long",
+        "email-pattern": "Please enter a valid email address",
+        "email-validate": "Email cannot contain spaces",
+        "your-subject": "Your Subject",
+        "subject-required": "Subject is required",
+        "subject-min-length": "Subject must be at least 5 characters",
+        "subject-max-length": "Subject cannot exceed 100 characters",
+        "your-message": "Your Message",
+        "message-required": "Message is required",
+        "message-min-length": "Message must be at least 10 characters",
+        "message-max-length": "Message cannot exceed 1000 characters",
+        "submitting": "Submit",
+        "isSubmitting": "Sending...",
+        "message-server": "Please correct the highlighted fields.",
+        "successful-message-server": "Your message has been sent successfully.",
+        "error-message-server": "Something went wrong. Please try again later."
+    }
+}
