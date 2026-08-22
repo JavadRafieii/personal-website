@@ -13,7 +13,7 @@ export default function Layout() {
             <Header />
             <div className="h-full max-w-335 mx-auto">
                 <div className="h-full grid grid-cols-12 gap-4 xl:gap-6">
-                    <aside className="h-dvh col-span-12 lg:col-span-3 glass p-6 overflow-scroll scrollbar-none hidden lg:block">
+                    <aside className="h-full col-span-12 lg:col-span-3 glass p-6 overflow-scroll scrollbar-none hidden lg:block">
                         <Sidebar />
                     </aside>
                     <main className="col-span-12 lg:col-span-8 glass border px-8 md:px-16 overflow-scroll scrollbar-none">
