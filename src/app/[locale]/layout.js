@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang={locale} dir={locale === "en" ? "ltr" : "rtl"}>
-      <body>
+      <body className='h-screen'>
         <OrbitPrimary />
         <OrbitSecondary />
         <OrbitVignette />

@@ -9,7 +9,7 @@ import ContactSection from "@/components/sections/contact-section";
 
 export default function Layout() {
     return (
-        <section className="h-[100vh] p-4 xl:p-8 relative z-10">
+        <section className="h-screen p-4 xl:p-8 relative z-10">
             <Header />
             <div className="h-full max-w-335 mx-auto">
                 <div className="h-full grid grid-cols-12 gap-4 xl:gap-6">
