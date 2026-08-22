@@ -17,7 +17,7 @@ export default function Navigation() {
     const locale = useLocale();
 
     return (
-        <ul className="flex items-center justify-center lg:flex-col lg:space-y-3">
+        <ul className="flex h-full items-center justify-center lg:flex-col lg:space-y-3">
             <li className="group text-muted-fg py-2 px-3 rounded-xl border-transparent hover:border-border hover:bg-surface-hover hover:text-fg transition relative cursor-pointer">
                 <Link href={"/"} locale={locale === "en" ? "fa" : "en"}>
                     <span className={`${locale === "en" ? "-left-18.75 font-manrope" : "-right-18.75 font-vazirmatn"} text-fg text-[12px] font-light absolute top-1 py-1 w-17.5 border border-border bg-surface-hover text-center hidden xl:group-hover:inline`}>

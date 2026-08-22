@@ -9,7 +9,7 @@ import ContactSection from "@/components/sections/contact-section";
 
 export default function Layout() {
     return (
-        <section className="h-screen p-4 xl:p-8 relative z-10">
+        <section className="h-[100vh] p-4 xl:p-8 relative z-10">
             <Header />
             <div className="h-full max-w-335 mx-auto">
                 <div className="h-full grid grid-cols-12 gap-4 xl:gap-6">
@@ -23,7 +23,7 @@ export default function Layout() {
                         <PortfolioSection />
                         <ContactSection />
                     </main>
-                    <nav className="col-span-12 lg:col-span-1 flex items-center justify-center glass py-2 lg:py-0">
+                    <nav className="col-span-12 h-full lg:col-span-1 flex items-center justify-center glass py-2 lg:py-0">
                         <Navigation />
                     </nav>
                 </div>
