@@ -1,4 +1,16 @@
 {
+  "Metadata": {
+    "title": "Javad Rafiei | Frontend Developer",
+    "description": "Personal portfolio of Javad Rafiei, a frontend developer specializing in React and Next.js. Explore my projects, skills and experience.",
+    "author": "Javad Rafiei",
+    "keywords": [
+      "Javad Rafiei",
+      "Frontend Developer",
+      "React",
+      "Next.js",
+      "Portfolio"
+    ]
+  },
   "Header": {
     "title": "Javad Rafiei"
   },
